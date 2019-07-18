@@ -1,0 +1,3 @@
+SUBSYSTEM=="usb", ATTR{idVendor}=="0483", ATTR{idProduct}=="374b", MODE="666", SYMLINK+="ttyUSB%n"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0483", ATTR{idProduct}=="3748", MODE="666", SYMLINK+="ttyUSB%n"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0483", ATTR{idProduct}=="3744", MODE="666", SYMLINK+="ttyUSB%n"
